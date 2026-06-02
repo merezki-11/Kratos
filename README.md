@@ -14,20 +14,20 @@ Kratos is a highly sophisticated, autonomous, AI-driven asset manager built on t
 
 ## 📸 Screenshots
 
-### AI Awakening & Market Intelligence Stream
-![AI Awakening Console](images/Screenshot%202026-06-02%20024205.png)
+### Kratos Core: Premium Live Dashboard
+![Full Dashboard Overview](images/Screenshot%202026-06-02%20024205.png)
 
-### Vault Overview & Live On-Chain Value
-![Vault Overview](images/Screenshot%202026-06-02%20024347.png)
+### Real-Time Vault Telemetry & Asset Allocation
+![Vault Overview and Telemetry](images/Screenshot%202026-06-02%20024347.png)
 
-### Strategy Execution & Real-Time Allocation Slider
-![Strategy Execution Slider](images/Screenshot%202026-06-02%20024442.png)
+### Autonomous Execution & On-Chain Settlement
+![Transaction Execution Log](images/Screenshot%202026-06-02%20024442.png)
 
-### Live Institutional Guardrails
-![Institutional Guardrails](images/Screenshot%202026-06-02%20024520.png)
+### Neural Processing & Live Market Oracles
+![Gemini Processing Log](images/Screenshot%202026-06-02%20024520.png)
 
-### Agent Identity Verification
-![Agent Identity Verification](images/Screenshot%202026-06-02%20024552.png)
+### Institutional Guardrails & Rebalancing Strategy
+![Compliance and Allocation Log](images/Screenshot%202026-06-02%20024552.png)
 
 ---
 
