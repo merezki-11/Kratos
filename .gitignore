@@ -1,0 +1,18 @@
+# Environment Variables
+.env
+agent-engine/.env
+frontend/.env
+*.env
+
+# Dependencies
+node_modules/
+frontend/node_modules/
+venv/
+__pycache__/
+*.pyc
+
+# Builds
+dist/
+frontend/dist/
+build/
+.DS_Store

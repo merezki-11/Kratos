@@ -1,0 +1,30 @@
+{
+  "logs": [
+    "[02:34:15] [COMPLIANCE] Address VERIFIED. Institutional guardrails passed.",
+    "[02:34:15] [EXEC] Allocations (bps): USDY: 7000, mETH: 2000, fBTC: 1000",
+    "[02:34:15] [EXEC] Reasoning Hash: 0xac563b2ff26b6fb0d362ee4724b5f0e35f39f2b9865f204bf5266c27d652b46d",
+    "[02:34:16] [EXEC] Formulating raw transaction object...",
+    "[02:34:16] [EXEC] Signing transaction with Agent Identity Key...",
+    "[02:34:16] [EXEC] Broadcasting transaction to Mantle Network...",
+    "[02:34:16] [SUCCESS] Transaction Confirmed! Hash: 0x1224866312adba164f091daf16d6684cdcc036bfb6570e004d9ebfed961793f7",
+    "[02:35:45] [DATA] Fetching live market data from CoinGecko...",
+    "[02:35:48] [AI] Initiating neural processing of macro data...",
+    "[02:35:48] [AI] Sending payload to Gemini 3.5 Flash via REST API...",
+    "[02:35:56] [AI] Gemini successfully generated strategic allocation.",
+    "[02:35:57] [NETWORK] Connected to Mantle L2: True",
+    "[02:35:57] [COMPLIANCE] Verifying geographic and KYC indices for target...",
+    "[02:35:57] [COMPLIANCE] Address VERIFIED. Institutional guardrails passed.",
+    "[02:35:57] [EXEC] Allocations (bps): USDY: 6000, mETH: 2000, fBTC: 2000",
+    "[02:35:57] [EXEC] Reasoning Hash: 0x0b6dbfe6461e3dce2bf2214f6799b4de3d427f73b0e298266d52f091f865e2b5",
+    "[02:35:58] [EXEC] Formulating raw transaction object...",
+    "[02:35:58] [EXEC] Signing transaction with Agent Identity Key...",
+    "[02:35:58] [EXEC] Broadcasting transaction to Mantle Network...",
+    "[02:35:58] [SUCCESS] Transaction Confirmed! Hash: 0x1ad50bd9c584552261f70df94d03a6b3987b0fb95170c9ef1388ccebef857fa3"
+  ],
+  "allocations": {
+    "usdy": 60,
+    "meth": 20,
+    "fbtc": 20
+  },
+  "last_updated": "2026-06-02T02:35:58.692861"
+}
