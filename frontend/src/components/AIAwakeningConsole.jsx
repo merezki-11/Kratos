@@ -8,6 +8,7 @@ const AIAwakeningConsole = () => {
   ]);
   const containerRef = React.useRef(null);
   const prevLogsLength = React.useRef(0);
+  const prevRawLogs = React.useRef(null);
 
   useEffect(() => {
     const fetchLogs = async () => {
@@ -16,13 +17,19 @@ const AIAwakeningConsole = () => {
         if (response.ok) {
           const data = await response.json();
           if (data.logs && data.logs.length > 0) {
-            // Only update if the content actually changed to prevent constant re-renders
-            setLogs(prev => {
-              if (JSON.stringify(prev) !== JSON.stringify(data.logs)) {
-                return data.logs;
-              }
-              return prev;
-            });
+            if (JSON.stringify(prevRawLogs.current) !== JSON.stringify(data.logs)) {
+              prevRawLogs.current = data.logs;
+              const baseTime = Date.now();
+              const processedLogs = data.logs.map((log, index) => {
+                if (/^\[\d{2}:\d{2}:\d{2}\]/.test(log)) {
+                  const fakeTime = new Date(baseTime - (data.logs.length - index) * 1500);
+                  const timeStr = fakeTime.toTimeString().split(' ')[0];
+                  return log.replace(/^\[\d{2}:\d{2}:\d{2}\]/, `[${timeStr}]`);
+                }
+                return log;
+              });
+              setLogs(processedLogs);
+            }
           }
         }
       } catch (err) {
