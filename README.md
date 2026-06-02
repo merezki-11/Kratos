@@ -15,7 +15,7 @@ Kratos is a highly sophisticated, autonomous, AI-driven asset manager built on t
 ## 📸 Screenshots
 
 ### Kratos Core: Premium Live Dashboard
-![Full Dashboard Overview](images/Screenshot%202026-06-02%20024205.png)
+![Full Dashboard Overview](images/Screenshot%202026-06-02%20034245.png)
 
 ### Real-Time Vault Telemetry & Asset Allocation
 ![Vault Overview and Telemetry](images/Screenshot%202026-06-02%20024347.png)
