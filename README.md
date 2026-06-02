@@ -1,8 +1,8 @@
 # Kratos AI
 
 > **Autonomous Institutional RWA Asset Manager**  
-> Built as a flagship project for the **DoraHacks Hackathon**  
-> **Target Tracks:** AI Agents · DeFi & Real World Assets (RWA)
+> Built as a flagship project for **The Turing Test 2026 Hackathon**  
+> **Target Track:** AI x RWA
 
 [Live Testnet Explorer](https://explorer.testnet.mantle.xyz/) · [Mantle Sepolia Vault Contract](https://explorer.testnet.mantle.xyz/address/0x97E5A35FA59b417DA4B38c9beEC8cBd23693e1AA)
 
