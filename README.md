@@ -65,9 +65,12 @@ The system utilizes a 100% autonomous, verifiable data pipeline to execute on-ch
 
 * **Zero-Mocks Architecture** — Completely live system. The AI engine actively pulls live pricing data from CoinGecko every cycle to make real decisions.
 * **Dual-Model Inference** — Powered by Google's **Gemini 3.5 Flash** via a hardened REST API, with an automatic, zero-downtime fallback to Hugging Face's **Mistral-7B** in the event of rate limits.
-* **Autonomous TX Execution** — The Python daemon holds an Agent Identity Key, allowing it to formulate, sign, and broadcast raw transaction payloads directly to Mantle L2.
+* **ERC-8004 Compliant Agent Identity** — The Python daemon holds an Agent Identity Key conforming to the **ERC-8004** standard, establishing a unique on-chain record of the agent's achievements, reputational metadata, and cryptographically verifiable transaction history.
+* **Gas-Optimized Rebalancing Triggers** — To protect capital from being eaten by L2 gas fees, Kratos implements a dynamic dual-trigger mechanism:
+  1. *Time-Based Epochs*: Evaluation runs every 4 hours rather than on every tick.
+  2. *Volatility Thresholds*: Rebalancing only executes on-chain if the suggested deviation in allocation exceeds 5% of target weight, preventing minor noise from bleeding transaction fees.
 * **Premium Cyberpunk Visualization Dashboard** — Full-stack real-time React telemetry displaying live agents, neural thought processes, and market allocations.
-* **Institutional Guardrails** — Pre-transaction KYC and geographic compliance verifications are processed before any funds are reallocated on-chain.
+* **Institutional Guardrails** — Pre-transaction compliance and geographic checks are processed by the zero-trust engine before any transaction payload is signed.
 
 ---
 

@@ -1,0 +1,84 @@
+1
+00:00:14,000 --> 00:00:21,000
+Enter Kratos Core: An autonomous, AI-driven asset management engine built natively for the Mantle Network.
+
+2
+00:00:21,000 --> 00:00:25,000
+We are not just building another yield aggregator.
+
+3
+00:00:25,000 --> 00:00:32,500
+We are building a fully autonomous hedge fund that operates with zero human emotion and strict institutional guardrails.
+
+4
+00:00:32,500 --> 00:00:36,500
+At the heart of Kratos is our dual-LLM architecture.
+
+5
+00:00:36,500 --> 00:00:42,000
+A custom Python ingestion daemon continuously pulls live macroeconomic data.
+
+6
+00:00:42,000 --> 00:00:50,000
+Gemini 3.5 Flash serves as our Chief Investment Officer, synthesizing global liquidity and risk sentiment into a macro thesis.
+
+7
+00:00:50,000 --> 00:00:55,000
+This thesis is immediately handed off to Mistral 7B, our quantitative structurer,
+
+8
+00:00:55,000 --> 00:01:02,000
+which translates the sentiment into precise mathematical allocations across three premium Mantle assets:
+
+9
+00:01:02,000 --> 00:01:11,000
+Ondo U.S. Dollar Yield for baseline stability, staked ether for liquid staking yield, and fBTC for macro Bitcoin exposure.
+
+10
+00:01:11,000 --> 00:01:15,000
+But AI hallucinates. How do we trust it with capital?
+
+11
+00:01:15,000 --> 00:01:18,500
+We don't. Before any transaction is signed,
+
+12
+00:01:18,500 --> 00:01:25,500
+our execution engine forces the AI's proposed allocations through hard-coded, zero-trust institutional guardrails.
+
+13
+00:01:25,500 --> 00:01:33,000
+It actively verifies OFAC compliance, enforces strict maximum drawdowns, and limits volatility caps.
+
+14
+00:01:33,000 --> 00:01:39,000
+Only if every single security constraint passes does the agent cryptographically sign the payload
+
+15
+00:01:39,000 --> 00:01:45,000
+and broadcast it directly to our custom Solidity Vault on the Mantle testnet.
+
+16
+00:01:45,000 --> 00:01:51,000
+No human intervention. Zero mock data. Everything is verifiable on-chain.
+
+17
+00:01:51,000 --> 00:01:58,500
+To bridge the gap between AI autonomy and human oversight, we built a premium React telemetry dashboard.
+
+18
+00:01:58,500 --> 00:02:03,500
+Investors can monitor Total Value Locked, track live allocations,
+
+19
+00:02:03,500 --> 00:02:11,000
+and watch the AI Awakening Stream, a raw, real-time terminal feed of the agent's internal reasoning,
+
+20
+00:02:11,000 --> 00:02:16,000
+compliance checks, and live Mantle transaction hashes.
+
+21
+00:02:16,000 --> 00:02:23,180
+Kratos Core outpaces manual risk management, bringing transparency to DeFi.
+
